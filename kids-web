@@ -1,5 +1,5 @@
 var list = ["*.kidsa-z.com","kidsa-z.com","*.raz-plus.com","raz-plus.com","*.raz-kids.com","raz-kids.com","*.learninga-z.com","learninga-z.com","*.headsprout.com","headsprout.com","readinga-z.com","*.readinga-z.com","vocabularya-z.com","*.vocabularya-z.com","ipip.net","*.ipip.net","ip138.com","*.ip138.com"];
-var proxy = "PROXY 65.49.235.85:25";
+var proxy = "PROXY 89.208.253.117:3128";
 function FindProxyForURL(url, host) {
     for (var i = 0, l = list.length; i < l; i++) {
         if (shExpMatch(host, list[i])) {
